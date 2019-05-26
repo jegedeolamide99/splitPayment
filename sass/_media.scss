@@ -34,6 +34,7 @@
 @media screen and (max-width: 768px) {
   header {
     .payment {
+      align-items: flex-start;
       .payment_grid {
         h1 {
           font-size: 2rem;
