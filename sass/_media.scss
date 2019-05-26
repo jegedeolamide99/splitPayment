@@ -1,0 +1,43 @@
+@media screen and (max-width: 1160px) {
+  header {
+    .payment {
+      max-width: 990px;
+      .payment_grid {
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    min-height: 100vh;
+    height: auto;
+    .payment {
+      grid-template-columns: 1fr;
+      grid-gap: 16px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      .payment_grid {
+        order: 1;
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    .payment {
+      .payment_grid {
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
