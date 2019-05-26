@@ -43,6 +43,13 @@ header {
       font-size: 1rem;
       margin-top: 0;
     }
+    .payment_image {
+      .responsive {
+        max-width: 100%;
+        height: inherit;
+        object-fit: cover;
+      }
+    }
   }
 }
 
